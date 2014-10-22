@@ -17,7 +17,7 @@ module Onebox
       end
 
       def to_html
-        "<iframe width='600' height='600' frameborder='0' src='http://suttacentral.net/#{uid}?embed=1'></iframe>"
+        "<iframe style='width: 100%; height: 12em' frameborder='0' src='http://suttacentral.net/#{uid}?embed=1'></iframe>"
       end
     end
   end
